@@ -1,0 +1,12 @@
+{
+	"Name": "Shanker",
+	"Age": 25,
+	"Contact": "576256272",
+	"Company": "Apple",
+	"Address": {
+		"City": "Seattle",
+		"State": "Wash",
+		"Country": "USA",
+		"Pincode": 6273663
+	}
+}

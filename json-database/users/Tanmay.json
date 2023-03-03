@@ -1,0 +1,12 @@
+{
+	"Name": "Tanmay",
+	"Age": 26,
+	"Contact": "976256272",
+	"Company": "Apple",
+	"Address": {
+		"City": "SJ",
+		"State": "California",
+		"Country": "USA",
+		"Pincode": 6273663
+	}
+}

@@ -1,0 +1,12 @@
+{
+	"Name": "Manav",
+	"Age": 29,
+	"Contact": "977256272",
+	"Company": "Apple",
+	"Address": {
+		"City": "Austin",
+		"State": "Texas",
+		"Country": "USA",
+		"Pincode": 6273663
+	}
+}

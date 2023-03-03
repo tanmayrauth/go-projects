@@ -1,0 +1,12 @@
+{
+	"Name": "Adi",
+	"Age": 24,
+	"Contact": "976226272",
+	"Company": "Apple",
+	"Address": {
+		"City": "NY",
+		"State": "NY",
+		"Country": "USA",
+		"Pincode": 6273663
+	}
+}

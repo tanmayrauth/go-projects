@@ -1,0 +1,12 @@
+{
+	"Name": "Rahul",
+	"Age": 23,
+	"Contact": "974256272",
+	"Company": "Apple",
+	"Address": {
+		"City": "NJC",
+		"State": "NJ",
+		"Country": "USA",
+		"Pincode": 6273663
+	}
+}
