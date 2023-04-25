@@ -7,7 +7,7 @@ import (
 
 func worker(jobs <-chan int, results chan<- int) {
 
-	for j := range jobs {
+	for j := range jobs { // This section will wait till the channel is closed. Since numJob no of workers are created. So each worker only serve one task
 		fmt.Println("Worker started for :", j)
 		time.Sleep(time.Second * 3)
 		results <- j * 2
@@ -27,9 +27,9 @@ func main() {
 	for i := 1; i <= numJobs; i++ {
 		jobs <- i
 	}
-	close(jobs)
+
 	for r := 1; r <= numJobs; r++ {
 		<-results
 	}
-
+	close(jobs)
 }
